@@ -1,0 +1,18 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: 3rd Hand
+email: contact@3rdhand.co
+description: 3rd Hand products are first quality products made from second hand materials. We collaborate with artists to make unique collections. Each piece is made by hand, breathing brand new value into loved materials. Big brands are focused on everyone, we make original designs on demand for you.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://3rdhand.co" # the base hostname & protocol for your site
+twitter_username: 3rdhandco
+github_username:
+
+# Build settings
+markdown: kramdown
