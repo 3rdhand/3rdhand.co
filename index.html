@@ -3,28 +3,22 @@ layout: default
 ---
 
 <div class="home">
-
-
-  <p style="text-align:center;">
-    <img  src="/images/01.jpg" alt="">
-  </p>
-  <!-- <img src="/images/3rdHand_back.jpg" alt=""> -->
-  <!-- <img src="/images/logo.png" alt=""> -->
-
-  <!-- <h1 class="page-heading">Posts</h1> -->
-
-  <!-- <ul class="post-list">
+  <div id="branding-header">
+  </div>
+  <ul class="post-list row">
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+      <li class="product-item column row">
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+        <div class="column">
+          <div class="product-thumbnail drawing" style="background-image: url({{ post.pics | first }})"></div>
+          <div class="product-thumbnail jean" style="background: #eee url({{ post.pics | first }}) center center">
+            <h2>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+          </div>
+        </div>
+        </a>
       </li>
     {% endfor %}
-  </ul> -->
-
-  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
-
+  </ul>
 </div>

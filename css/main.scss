@@ -53,3 +53,38 @@ $on-laptop:        800px;
         "milligram/milligram"
 
 ;
+
+.product-thumbnail {
+  overflow: hidden;
+  &.jean {
+    height: 100px;
+    h2 a{
+      font-size: 1em;
+      padding: 10px;
+      color: white;
+    }
+  }
+  &.drawing {
+    height: 250px;
+    background-size: 400px;
+    background-position: 0px 280px;
+  }
+}
+
+.product-tictail-embed {
+  margin-right: 10px;
+}
+
+.site-header, footer {
+  background: url("http://49.media.tumblr.com/9c05937b509383e9759f06e0bcddd8ac/tumblr_nlf3siNWGA1ru5h8co1_500.gif");
+}
+
+.site-header {
+  background-position: 0 400px;
+}
+footer {
+  background-position: 0 -275px;
+}
+footer p, footer li {
+
+}
